@@ -17,11 +17,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Finance" id="hC6-Et-bm2"/>
                     <navigationItem key="navigationItem" title="Finance" id="oUu-5A-UVb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-922" y="1403"/>
+            <point key="canvasLocation" x="-889" y="424"/>
         </scene>
         <!--Settings-->
         <scene sceneID="pY6-wT-N4h">
@@ -51,7 +52,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nSK-cR-ofs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2569" y="413"/>
+            <point key="canvasLocation" x="2554" y="424"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="kEs-YV-rOz">
@@ -65,7 +66,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="04w-BU-dJj" kind="relationship" relationship="viewControllers" id="SHN-1o-iRa"/>
-                        <segue destination="X0Y-No-lWm" kind="relationship" relationship="viewControllers" id="a3c-6f-T8l"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="ySp-oS-4jW"/>
                         <segue destination="hyn-Id-Uah" kind="relationship" relationship="viewControllers" id="zQ1-7e-USQ"/>
                         <segue destination="KIW-2r-0ic" kind="relationship" relationship="viewControllers" id="Cve-H0-6iP"/>
                         <segue destination="NSF-kk-gcN" kind="relationship" relationship="viewControllers" id="Li2-90-wHl"/>
@@ -89,7 +90,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B9I-hL-Dhz" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="414" y="402"/>
+            <point key="canvasLocation" x="370" y="424"/>
         </scene>
         <!--Math-->
         <scene sceneID="INf-Ar-LzW">
@@ -105,7 +106,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5F3-3Q-vrB" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1358" y="412"/>
+            <point key="canvasLocation" x="1350" y="424"/>
         </scene>
         <!--Calculator-->
         <scene sceneID="2gp-hz-Wj9">
@@ -270,25 +271,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dif-5D-hyZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2108" y="424.13793103448279"/>
-        </scene>
-        <!--Finance-->
-        <scene sceneID="50b-xj-F3T">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="X0Y-No-lWm" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Finance" id="ec1-Ti-BTZ"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ypk-Vi-ab2">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="OQy-ak-hVj"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="EV5-S9-GMm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-922.39999999999998" y="413.3433283358321"/>
         </scene>
     </scenes>
 </document>
