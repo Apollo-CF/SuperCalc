@@ -244,6 +244,28 @@
                         <viewLayoutGuide key="safeArea" id="ePL-oW-0Qb"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Calculator" id="Gne-LK-Vet"/>
+                    <connections>
+                        <outlet property="additionButton" destination="w4y-J0-uT0" id="zxG-st-43c"/>
+                        <outlet property="calculateLabel" destination="spn-jP-dNe" id="ynN-rK-p5B"/>
+                        <outlet property="clearButton" destination="G4d-dc-dDy" id="XfT-M6-GwH"/>
+                        <outlet property="decimalButton" destination="Gxl-lw-XYS" id="KG3-MA-e7F"/>
+                        <outlet property="divideButton" destination="cjm-jV-IcJ" id="9yR-Tv-b0s"/>
+                        <outlet property="equalsButton" destination="KF0-GV-fFG" id="O8H-0n-Bfb"/>
+                        <outlet property="multiplyButton" destination="Gqq-fz-sZx" id="1hL-dg-Aau"/>
+                        <outlet property="num0Button" destination="ZkF-tr-Mtn" id="XTn-Hg-bu4"/>
+                        <outlet property="num1Button" destination="YSe-AU-Bmv" id="78k-xh-PO5"/>
+                        <outlet property="num2Button" destination="X5x-oY-EDA" id="Aku-00-fGa"/>
+                        <outlet property="num3Button" destination="i2o-io-5I9" id="t3t-17-7bJ"/>
+                        <outlet property="num4Button" destination="Axc-ob-RM1" id="2rZ-Ww-qtM"/>
+                        <outlet property="num5Button" destination="7cX-Gk-2ws" id="0Ql-M1-EVD"/>
+                        <outlet property="num6Button" destination="y24-uE-vbO" id="esM-F2-w4o"/>
+                        <outlet property="num7Button" destination="3Pk-xm-Up6" id="Dbc-7u-XRS"/>
+                        <outlet property="num8Button" destination="EA7-VT-wae" id="PaF-7i-y7d"/>
+                        <outlet property="num9Button" destination="bSO-5e-b2V" id="B9m-fP-dR8"/>
+                        <outlet property="percentageButton" destination="P9J-Lr-WRk" id="oDu-9a-7K7"/>
+                        <outlet property="positiveNegativeButton" destination="ASg-wk-9FJ" id="EcN-qT-F84"/>
+                        <outlet property="subtractButton" destination="57O-hG-pwh" id="dAx-bA-HgP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dif-5D-hyZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
