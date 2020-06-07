@@ -27,19 +27,19 @@ func calculateDiscounts(price: Float, discount: Float) -> Float {
     return price * discount
 }
 
-let myHourlyWage = 21
+let myHourlyWage = 16
 calculateGrossWageSalary(hourly: Float(myHourlyWage))
 
-let mySalaryWage = 83592.25
+let mySalaryWage = 0
 calculateGrossWageHourly(salary: Float(mySalaryWage))
 
 let macMini2020price = 1199.00
 hoursOfWorkToBuyItem(wage: Float(myHourlyWage), itemPrice: Float(macMini2020price))
 
-let bill = 68.62
-let tipPercentage = 0.18
-splitTheBill(bill: Float(bill), tipPercentage: Float(tipPercentage))
-splitTheBill(bill: Float(bill), tipPercentage: Float(tipPercentage), numberOfPeople: 3)
+//let bill = 68.62
+//let tipPercentage = 0.18
+//splitTheBill(bill: Float(bill), tipPercentage: Float(tipPercentage))
+//splitTheBill(bill: Float(bill), tipPercentage: Float(tipPercentage), numberOfPeople: 3)
 
 let discount = 0.05
 calculateDiscounts(price: Float(macMini2020price), discount: Float(discount))
