@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37421140248DCF320072DC98 /* FinanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742113F248DCF320072DC98 /* FinanceViewController.swift */; };
 		37A8080D248C3F5E00D07489 /* FinanceUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A8080C248C3F5E00D07489 /* FinanceUtilities.swift */; };
 		37A80815248C48F900D07489 /* SuperCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A80814248C48F900D07489 /* SuperCalcTests.swift */; };
 		D92136DB246CA12C007F0492 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92136DA246CA12C007F0492 /* AppDelegate.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3742113F248DCF320072DC98 /* FinanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceViewController.swift; sourceTree = "<group>"; };
 		37A8080C248C3F5E00D07489 /* FinanceUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceUtilities.swift; sourceTree = "<group>"; };
 		37A80812248C48F900D07489 /* SuperCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A80814248C48F900D07489 /* SuperCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperCalcTests.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				D9EA3FD8246F59F200268CF3 /* CalculatorViewController.swift */,
+				3742113F248DCF320072DC98 /* FinanceViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D92136DF246CA12C007F0492 /* ViewController.swift in Sources */,
+				37421140248DCF320072DC98 /* FinanceViewController.swift in Sources */,
 				D92136DB246CA12C007F0492 /* AppDelegate.swift in Sources */,
 				D9EA3FD9246F59F200268CF3 /* CalculatorViewController.swift in Sources */,
 				D92136DD246CA12C007F0492 /* SceneDelegate.swift in Sources */,
